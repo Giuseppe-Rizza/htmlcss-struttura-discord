@@ -13,16 +13,44 @@ header {
 
 /* regole del blocco centrale */
 
+#riga-blu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+}
+
+#riga-blu-rosa {
+    background-color: palevioletred;
+    height: 80%;
+    width: 50%;
+}
+
 .container {
     display: flex;
+    height: 1200px;
+    width: 100%;
 }
 
-main {
-    background-color: rgba(8, 8, 242, 0.959);
-    height: 200px;
+#riga-bianca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+    width: 100%
 }
 
-
+#riga-grigia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 400px;
+    width: 100%;
+}
 
 /* regole footer */
 footer {
