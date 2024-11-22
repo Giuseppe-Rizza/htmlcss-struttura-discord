@@ -4,3 +4,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* regole header */
+header {
+    background-color: rgb(137, 209, 242);
+    height: 50px;
+}
+
+/* regole del blocco centrale */
+
+.container {
+    display: flex;
+}
+
+main {
+    background-color: rgba(8, 8, 242, 0.959);
+    height: 200px;
+}
+
+
+
+/* regole footer */
+footer {
+    background-color: black;
+    min-height: 100px;
+}
