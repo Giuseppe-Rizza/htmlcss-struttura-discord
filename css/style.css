@@ -11,49 +11,92 @@ header {
     height: 50px;
 }
 
+.orange-box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    background-color: orange;
+    height: 30px;
+}
+
 /* regole del blocco centrale */
 
-#riga-blu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    height: 500px;
-    width: 100%;
-}
-
-#riga-blu-rosa {
-    background-color: palevioletred;
-    height: 80%;
-    width: 50%;
-}
 
 .container {
     display: flex;
-    height: 1200px;
+    justify-content: center;
     width: 100%;
+    padding: 30px;
 }
 
-#riga-bianca {
+.last-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-white {
     background-color: white;
-    height: 400px;
-    width: 100%
 }
 
-#riga-grigia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bg-gray {
     background-color: gray;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.purple-box {
+    width: 50%;
+    background-color: purple;
+    height: 300px;
+}
+
+.blue-box {
+    width: 40%;
+    background-color: blue;
     height: 400px;
-    width: 100%;
+}
+
+.pink-box {
+    width: 30%;
+    background-color: pink;
+    height: 400px;
+}
+
+.green-box {
+    width: 70%;
+    background-color: green;
+    height: 600px;
+}
+
+.red-box {
+    width: 16%;
+    background-color: red;
+    height: 500px;
+}
+
+.yellow-box {
+    width: 12%;
+    background-color: yellow;
+    height: 500px;
+}
+
+.debug {
+    border: 1px dashed black;
 }
 
 /* regole footer */
 footer {
     background-color: black;
     min-height: 100px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
