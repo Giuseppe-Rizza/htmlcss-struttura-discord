@@ -15,12 +15,18 @@ header {
     align-items: center;
 }
 
-.orange-box {
-    display: flex;
-    align-items: center;
+.topbar {
     width: 70%;
     background-color: orange;
     height: 30px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    width: 5%;   
 }
 
 /* regole del blocco centrale */
