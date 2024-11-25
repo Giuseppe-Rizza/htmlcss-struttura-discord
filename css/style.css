@@ -113,3 +113,12 @@ footer {
     background-color: greenyellow;
     height: 60px;
 }
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palevioletred;
+    height: 30%;
+    width: 5%;
+}
