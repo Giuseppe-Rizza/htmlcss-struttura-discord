@@ -81,13 +81,13 @@ header {
     height: 600px;
 }
 
-.red-box {
+.main-column {
     width: 18%;
     background-color: red;
     height: 500px;
 }
 
-.yellow-box {
+.small-column {
     width: 13%;
     background-color: yellow;
     height: 500px;
