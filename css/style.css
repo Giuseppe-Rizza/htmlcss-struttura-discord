@@ -9,6 +9,10 @@
 header {
     background-color: rgb(137, 209, 242);
     height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .orange-box {
@@ -78,13 +82,13 @@ header {
 }
 
 .red-box {
-    width: 16%;
+    width: 18%;
     background-color: red;
     height: 500px;
 }
 
 .yellow-box {
-    width: 12%;
+    width: 13%;
     background-color: yellow;
     height: 500px;
 }
@@ -99,4 +103,13 @@ footer {
     min-height: 100px;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.greenyellow-box {
+    width: 70%;
+    background-color: greenyellow;
+    height: 60px;
 }
