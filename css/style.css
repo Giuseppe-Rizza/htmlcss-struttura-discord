@@ -20,16 +20,11 @@ header {
     margin: 20px auto;
 }
 
-nav {
+ul {
+    list-style: none;
     display: flex;
     flex-direction: row;
     align-content: space-between;
-    align-items: center;
-    vertical-align: 100%;
-}
-
-ul {
-    list-style: none;
 }
 
 a {
@@ -57,17 +52,14 @@ a {
     margin: 20px auto;
 }
 
-.side-bar {
+.side-topbar {
 /* DEBUG */
 width: 15%;
 }
 
-.central-bar {
+.central-topbar {
 /* DEBUG */
 width: 40%;
-
-display: flex;
-align-content: space-between;
 }
 
 /* regole del blocco centrale */
